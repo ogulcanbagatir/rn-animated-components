@@ -4,7 +4,7 @@ A collection of visually rich, interactive, self-contained components built usin
 
 Created with care by Niche Guys
 
-Follow us on [Twitter](https://x.com/GuysNiche)
+Follow us on [@NicheGuys](https://x.com/GuysNiche)
 
 ---
 
