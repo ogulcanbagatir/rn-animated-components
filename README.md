@@ -4,7 +4,7 @@ A collection of visually rich, interactive, self-contained components built usin
 
 Created with care by Niche Guys
 
-Follow us on [Twitter](https://x.com/GuysNiche)
+Follow us on [@NicheGuys](https://x.com/GuysNiche)
 
 ---
 
@@ -25,6 +25,7 @@ Follow us on [Twitter](https://x.com/GuysNiche)
 | `CircleLoader` | Circular loader animation using radial motion                  |
 | `AnimatedNumber`| An animated number display with smooth transitions for both digits and separators|
 | `RadialProgress`| A circular progress indicator with animated rim lines and a centered percentage text|
+| `Curtain`| Gesture based curtain opening animation|
 
 ---
 

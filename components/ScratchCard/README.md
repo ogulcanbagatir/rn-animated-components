@@ -86,3 +86,6 @@ Defines the hidden content revealed during scratching. Can be any RN element.
 ---
 
 Made with ❤️ by **niche.guys**
+
+Follow us on [Twitter](https://x.com/GuysNiche)
+

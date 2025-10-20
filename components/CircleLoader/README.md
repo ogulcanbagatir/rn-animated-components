@@ -66,3 +66,6 @@ This component is **self-contained** and can be used by simply copying the file.
 ---
 
 Made with ❤️ by **niche.guys**
+
+Follow us on [Twitter](https://x.com/GuysNiche)
+

@@ -88,3 +88,6 @@ This component is **self-contained** and can be used by simply copying the file.
 - The Canvas size accounts for the scale factor and line heights so lines never clip
 
 Made with ❤️ by **niche.guys**
+
+Follow us on [Twitter](https://x.com/GuysNiche)
+

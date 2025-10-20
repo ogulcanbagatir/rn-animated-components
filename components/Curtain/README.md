@@ -2,7 +2,8 @@
 
 A curtain like animation with **React Native Skia** and **Reanimated**.  
 A gesture based curtain animation which reveals the content behind. You can also pass your own SharedValue from outside to control the curtain’s motion.
-This allows you to drive the curtain animation manually or synchronize it with other animations that react to the same value.
+
+https://github.com/user-attachments/assets/84bc8387-0083-4fbd-bed7-fc1a2df9a536
 
 ## ✨ Features
 
@@ -37,7 +38,7 @@ This component is **self-contained** and can be used by simply copying the file.
             resizeMode="contain"
           />
           <Curtain
-            animationValue={animValue}
+            progress={animValue}
             containerStyle={{position: "absolute"}}
           />
         </View>
@@ -55,7 +56,7 @@ This component is **self-contained** and can be used by simply copying the file.
 
 | Prop      | Type       | Required | Default                                     | Description                          |
 |-----------|------------|----------|---------------------------------------------|--------------------------------------|
-| `animationValue`   | `SharedValue<number>`   | Yes       | -                    | Shared value used to animate curtains, changes between 0-1 |
+| `progress`   | `SharedValue<number>`   | Yes       | -                    | Shared value used to animate curtains, changes between 0-1 |
 | `width`   | `number`   | No       | `screen_width`                              | Container width                      |
 | `height`  | `number`   | No       | `screen_height`                             | Container height                     |
 | `minY`    | `number`   | No       | `80`                                        | y value to start animation           |
@@ -67,3 +68,6 @@ This component is **self-contained** and can be used by simply copying the file.
 ---
 
 Made with ❤️ by **niche.guys**
+
+Follow us on [Twitter](https://x.com/GuysNiche)
+
