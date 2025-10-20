@@ -26,6 +26,7 @@ Follow us on [@NicheGuys](https://x.com/GuysNiche)
 | `AnimatedNumber`| An animated number display with smooth transitions for both digits and separators|
 | `RadialProgress`| A circular progress indicator with animated rim lines and a centered percentage text|
 | `Curtain`| Gesture based curtain opening animation|
+| `Stepper`| An animated indicator for step based components|
 
 ---
 
