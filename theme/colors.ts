@@ -18,7 +18,7 @@ const colors = {
   dark3: "#5d666f", //#5d666f
   dark4: "#adb5bd", //#adb5bd
   dark5: "#dee2e6", //#dee2e6
-  dark6: "#F3F5F6", //#F3F5F6
+  dark6: "#F3F5F6", //#F3F5F6,
   
   white: "#FFFFFF",
   p1: "#FFE8AD",

@@ -11,7 +11,7 @@ const data: any[] = [
   {screen: "/animated-number", title: "Animated Number", icon: null},
   {screen: "/curtain", title: "Curtain", icon: null},
   {screen: "/radial-progress", title: "Radial Progress", icon: null},
-  {screen: "/draggable-list", title: "Draggable List", icon: null}
+  {screen: "/stepper", title: "Stepper", icon: null}
 ]
 
 export default function App() {

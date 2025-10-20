@@ -1,9 +1,9 @@
 import colors from "@/theme/colors";
-import { memo, useEffect } from "react";
+import { memo } from "react";
 import { Dimensions, StyleSheet, View, ViewStyle } from "react-native";
 import { Gesture, GestureDetector } from "react-native-gesture-handler";
 import Animated, { clamp, interpolate, runOnJS, useAnimatedStyle, useSharedValue } from "react-native-reanimated";
-const { width, height } = Dimensions.get("screen")
+const { width } = Dimensions.get("screen")
 
 interface Props {
   onChange?: (val: number)=> void,

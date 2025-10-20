@@ -37,7 +37,10 @@
     "react-native-screens": "~4.11.1",
     "react-native-web": "~0.20.0",
     "react-native-webview": "13.13.5",
-    "@shopify/react-native-skia": "v2.0.0-next.4"
+    "@shopify/react-native-skia": "v2.0.0-next.4",
+    "expo-linear-gradient": "~14.1.5",
+    "undefined": "react-native-masked-view/masked-view",
+    "@react-native-masked-view/masked-view": "0.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

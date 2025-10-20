@@ -107,14 +107,13 @@ const styles = StyleSheet.create({
     width: "100%",
     flex: 1,
     marginTop: 16,
+    borderRadius: 16,
   },
   flatListContent: {
   },
   imageContainer: {
     width: width,
     height: "100%",
-    borderRadius: 16,
-    overflow: "hidden",
     borderCurve: "continuous"
   },
   button: {

@@ -1,7 +1,7 @@
 import { BlurMask, Canvas, Group, LinearGradient, matchFont, Path, Skia, SkFont, SkPath, Text, vec, useFont } from "@shopify/react-native-skia";
 import { useEffect, useMemo } from "react";
 import { Platform } from "react-native";
-import { Easing, interpolate, SharedValue, useDerivedValue, useSharedValue, withTiming } from "react-native-reanimated";
+import { Easing, interpolate, useDerivedValue, useSharedValue, withTiming } from "react-native-reanimated";
 
 interface FontStyle {
   fontFamily?: string | number; 
@@ -37,8 +37,6 @@ interface ItemProps {
   blur: number,
   textColor?: string,
   font: SkFont,
-  duration: number,
-  progress: SharedValue<number>,
   centerY: number
 }
 
@@ -75,18 +73,16 @@ const defaultFont = matchFont({
   fontWeight: "bold",
 })
 
-function Item({ stepWidth, radius, textWidth, index, iconSize, textHeight, iconColor, blur, textColor, font, duration, progress, centerY}: ItemProps){
+function Item({ stepWidth, radius, textWidth, index, iconSize, textHeight, iconColor, blur, textColor, font, centerY, currentStep}: ItemProps){
   const checkPath = useMemo(()=> makeCheckInBox(iconSize, strokeWidth), [iconSize, blur])
 
   const checkAnim = useDerivedValue(()=> {
-    const val = interpolate(progress.value, [index, index + 1], [0, 1], "clamp")
-    return val
-  },[progress])
+    return withTiming(index >= currentStep ? 0 : 1, {duration: 500})
+  },[currentStep, index])
 
   const textOpacity = useDerivedValue(()=> {
-    const val = interpolate(progress.value, [index, index + 1], [1, 0], "clamp")
-    return val
-  },[progress])
+    return withTiming(index >= currentStep ? 1 : 0, {duration: 500})
+  },[currentStep, index])
 
   return (
     <Group transform={[{translateX: ((stepWidth + (radius * 2)) * index )}]}>
@@ -248,8 +244,6 @@ export default function Stepper({
               blur={blur}
               textColor={textColor}
               font={font}
-              duration={duration}
-              progress={progress}
               centerY={centerY}
             />
           )
