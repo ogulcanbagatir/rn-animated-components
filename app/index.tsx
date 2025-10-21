@@ -13,6 +13,7 @@ const data: any[] = [
   {screen: "/radial-progress", title: "Radial Progress", icon: null},
   {screen: "/stepper", title: "Stepper", icon: null},
   {screen: "/sticky-particles", title: "Sticky Particles", icon: null}
+  {screen: "/page-curl", title: "Page Curl", icon: null}
 ]
 
 export default function App() {
