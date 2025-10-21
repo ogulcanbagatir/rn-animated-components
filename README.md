@@ -1,4 +1,6 @@
-<img width="2365" height="846" alt="banner-nicheguys" src="https://github.com/user-attachments/assets/b384814f-895f-49b9-b273-665c78c0a2f3" style="border-radius: 20px; width: 100%; height: auto;" />
+<p align="center">
+  <img width="100%" alt="banner-nicheguys" src="https://github.com/user-attachments/assets/b384814f-895f-49b9-b273-665c78c0a2f3" />
+</p>
 
 <div align="center">
 
