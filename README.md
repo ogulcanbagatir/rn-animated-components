@@ -28,6 +28,7 @@ Follow us on [@NicheGuys](https://x.com/GuysNiche)
 | `Curtain`| Gesture based curtain opening animation|
 | `Stepper`| An animated indicator for step based components|
 | `StickyParticles`| GPU-accelerated metaballs animation with interactive touch support and three visual modes|
+| `PageCurl`| A gesture based page curl transition|
 
 ---
 
