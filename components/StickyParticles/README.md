@@ -3,7 +3,8 @@
 An advanced metaballs animation component with GPU-accelerated rendering and interactive touch support.  
 Features three distinct visual modes and extensive customization options.
 
-Uploading sticky-particles-github-example.mov…
+https://github.com/user-attachments/assets/1ec61229-cdae-4a72-b7f1-3c26adeb32f6
+
 
 ## ✨ Features
 
