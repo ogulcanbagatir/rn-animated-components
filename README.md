@@ -1,5 +1,6 @@
-# 🧩 Animated Components for React Native
+<img width="2365" height="846" alt="banner-nicheguys" src="https://github.com/user-attachments/assets/b384814f-895f-49b9-b273-665c78c0a2f3" />
 
+# Animated Components for React Native Apps
 A collection of visually rich, interactive, self-contained components built using Skia, Reanimated, and Gesture Handler. Designed to work out-of-the-box. Perfect for rapid prototyping or production use.
 
 Created with care by Niche Guys
@@ -8,7 +9,7 @@ Follow us on [@NicheGuys](https://x.com/GuysNiche)
 
 ---
 
-## ✨ Features
+## Features
 
 - 🧠 Powered by **Skia**, **Reanimated**, and **Gesture Handler**  
 - 📦 Self-contained components — use only what you need  
@@ -16,7 +17,7 @@ Follow us on [@NicheGuys](https://x.com/GuysNiche)
 
 ---
 
-## 📦 Components
+## Components
 
 | Name           | Description                                                   |
 |----------------|---------------------------------------------------------------|
@@ -32,7 +33,7 @@ Follow us on [@NicheGuys](https://x.com/GuysNiche)
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. **Copy the Component**  
    Find the component you want in components folder and copy its folder into your project.
@@ -55,7 +56,7 @@ Follow us on [@NicheGuys](https://x.com/GuysNiche)
 
 ---
 
-## 🧪 Try it Live
+## Try it Live
 
 Clone this repo and run the demo app:
 
