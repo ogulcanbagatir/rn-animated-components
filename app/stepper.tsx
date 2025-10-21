@@ -1,7 +1,7 @@
 import { Dimensions, FlatList, Image, Pressable, StyleSheet, View } from "react-native";
 import { useEffect, useRef, useState } from "react";
 import Stepper from "@/components/Stepper/Stepper";
-import colors from "@/theme/colors";
+import colors, { hexToRgba } from "@/theme/colors";
 import { Feather } from "@expo/vector-icons";
 
 const width = Dimensions.get("window").width - 32;
@@ -39,7 +39,7 @@ export default function StepperExample(){
         stepCount={4}
         width={width}
         textColor={"white"}
-        outlineColor="white"
+        outlineColor={hexToRgba("#FFFFFF", 0.4)}
         blur={4}
         activeColors={colors.p1}
         radius={16}
