@@ -3,6 +3,8 @@
 A custom animated step progress indicator with smooth transitions and checkmark animations.  
 Crafted using **React Native Skia** and **Reanimated**.
 
+https://github.com/user-attachments/assets/8b3c2806-d72f-46c7-822d-72c7133f71a6
+
 ## ✨ Features
 
 - Smooth animated progress between steps  
