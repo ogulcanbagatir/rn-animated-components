@@ -2,29 +2,25 @@
 
 <div align="center">
 
-# Animated Components for React Native
+# Animated Components for React Native & Expo Apps
 
 **Premium quality, production-ready animated components built with Skia & Reanimated**
 
 [![GitHub stars](https://img.shields.io/github/stars/ogulcanbagatir/rn-animated-components?style=for-the-badge&logo=github&color=yellow)](https://github.com/ogulcanbagatir/rn-animated-components/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)](https://x.com/GuysNiche)
-
-[![Follow @NicheGuys](https://img.shields.io/twitter/follow/GuysNiche?style=for-the-badge&logo=x&label=Follow%20%40NicheGuys&color=black)](https://x.com/GuysNiche)
+[![Follow @NicheGuys](https://img.shields.io/twitter/follow/GuysNiche?style=for-the-badge&logo=x&label=Follow%20%40NicheGuys)](https://x.com/GuysNiche)
 
 </div>
 
 
 ## What is this?
 
-A **carefully curated collection** of visually stunning, interactive, and **self-contained** animation components for React Native and Expo. Each component is:
+A collection of self-contained animation components for React Native and Expo, built with Skia and Reanimated. Each component is:
 
-- **Production-Ready** — Tested, optimized, and ready to ship
-- **High Performance** — GPU-accelerated with React Native Skia
-- **Fully Customizable** — Extensive props for every use case
-- **Cross-Platform** — Works on iOS, Android, and Web
-
-Perfect for developers who want **premium animations** without the hassle of building from scratch.
+- Production-ready and tested
+- Copy-paste, no setup required
+- Fully customizable via props
+- Works on iOS, Android, and Web
 
 
 # Components
