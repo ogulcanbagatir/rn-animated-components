@@ -27,6 +27,7 @@ Follow us on [@NicheGuys](https://x.com/GuysNiche)
 | `RadialProgress`| A circular progress indicator with animated rim lines and a centered percentage text|
 | `Curtain`| Gesture based curtain opening animation|
 | `Stepper`| An animated indicator for step based components|
+| `PageCurl`| A gesture based page curl transition|
 
 ---
 
