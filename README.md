@@ -95,10 +95,10 @@ npx expo start
 **We're two passionate developers sharing our craft with the community**
 
 <a href="https://github.com/saimemre1">
-  <img src="https://github.com/saimemre1.png" width="80" height="80" style="border-radius: 50%; margin: 10px;" alt="Emre" />
+  <img src="https://github.com/saimemre1.png" width="80" height="80" alt="Emre" />
 </a>
 <a href="https://github.com/ogulcanbagatir">
-  <img src="https://github.com/ogulcanbagatir.png" width="80" height="80" style="border-radius: 50%; margin: 10px;" alt="Ogulcan" />
+  <img src="https://github.com/ogulcanbagatir.png" width="80" height="80" alt="Ogulcan" />
 </a>
 
 [@saimemre1](https://github.com/saimemre1) • [@ogulcanbagatir](https://github.com/ogulcanbagatir)
