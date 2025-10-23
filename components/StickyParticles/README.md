@@ -3,6 +3,7 @@
 An advanced metaballs animation component with GPU-accelerated rendering and interactive touch support.  
 Features three distinct visual modes and extensive customization options.
 
+https://github.com/user-attachments/assets/1ec61229-cdae-4a72-b7f1-3c26adeb32f6
 
 
 ## ✨ Features
@@ -132,47 +133,6 @@ Dynamic hue shifting with dramatic edge darkening and pulsing threshold. Creates
 ```
 
 **Note:** Cooked mode uses fewer particles for optimal performance while maintaining visual impact.
-
-## 🔧 Performance Tips
-
-1. **Particle Count**: Lower values (10-30) for better performance, higher (50-100) for denser visuals
-2. **Cooked Mode**: Uses CPU pre-calculations for hue shifts and pulsing—optimized for performance
-3. **Touch Smoothness**: Higher values (0.1-0.2) reduce jitter but increase lag
-4. **Animation Size**: Larger values spread particles across more screen space
-5. **ClumpFactor**: Values > 1 spread particles, < 1 clusters them together
-
-## 💡 Implementation Details
-
-### Metaballs Algorithm
-Uses an implicit field function where each particle contributes to the field based on its distance. When the combined field strength exceeds a threshold, pixels are rendered.
-
-### GPU Rendering
-The metaballs calculations are performed entirely on the GPU using SkSL (Skia Shader Language) for maximum performance. The shader handles:
-- Distance field calculations for up to 100 particles
-- Mode-based visual effects (glow, hue shift, edge darkening)
-- Touch ball blending with smooth scale animations
-
-### CPU Optimizations
-Expensive operations like hue rotation and pulsing thresholds are pre-calculated on the CPU once per frame, then passed to the GPU as uniforms. This prevents millions of redundant calculations across pixels.
-
-### Touch Interaction
-Touch events are handled via `react-native-gesture-handler` with smooth spring animations for the touch ball's appearance and disappearance. The touch position is smoothed over time to prevent jittery movement.
-
-## 📝 Notes
-
-- The component uses `GestureHandlerRootView` internally, but you should wrap your app in it at the root level
-- Colors must be in hex format (e.g., `"#FF5733"`)
-- Particle positions are deterministic—same seed produces same motion paths
-- The touch ball scales in/out smoothly using spring animations
-- Canvas renders with anti-aliasing enabled by default
-
-## 🎯 Use Cases
-
-- **Background Animations**: Add visual interest to empty spaces
-- **Loading Screens**: Create engaging loading experiences
-- **Interactive Demos**: Showcase touch interactions
-- **Art Installations**: Create generative art with user interaction
-- **Onboarding Flows**: Add dynamic visual elements
 
 ---
 
